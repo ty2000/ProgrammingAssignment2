@@ -18,6 +18,7 @@
 
 ## Write a short comment describing this function
 #
+#  The following sets up the internal functions when making a cacheable matrix
 
 makeCacheMatrix <- function(x = matrix()) {
        m <- NULL
@@ -35,6 +36,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+#  
+#  invert an matrix using cache
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
